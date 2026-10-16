@@ -1,0 +1,10 @@
+class Main {
+    int x=5;
+    int square(){
+        return x*x;
+    }
+    public static void main(String[] args) {
+        Main X=new Main();
+        System.out.println("The square of number is:"+X.square());
+    }
+}
