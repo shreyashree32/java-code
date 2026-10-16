@@ -1,0 +1,16 @@
+class Main{
+    int num=15;
+    String CheckNum(){
+        if(num%2==0){
+            return "even";
+        }
+        else{
+            return "odd";
+        }
+    }
+
+public static void main(String[] args){
+    Main N= new Main();
+    System.out.println("The given number is :"+N.CheckNum());
+}
+}
