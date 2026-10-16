@@ -1,0 +1,14 @@
+class Main {
+    double principal_amount=1000;
+    double rate =2;
+    double time=2;
+    double simpleInterest(){
+        return (principal_amount*rate*time)/100;
+    }
+    
+
+    public static void main(String[] args) {
+        Main P=new Main();
+        System.out.println("the simple interest is :"+P.simpleInterest());
+    }
+}
