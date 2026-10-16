@@ -1,0 +1,16 @@
+class Employee {
+    int emp_id=101;
+    String name="Soumya";
+    float salary=20000;
+    void display(){
+        System.out.println(emp_id);
+        System.out.println(name);
+        System.out.println(salary);
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Employee E=new Employee();
+        E.display();
+    }
+}
