@@ -1,0 +1,21 @@
+class Main {
+    int a;
+    int b;
+
+    int multiplication() {
+        return a * b;
+    }
+
+    public static void main(String[] args) {
+        Main M1 = new Main();
+        M1.a = 5;
+        M1.b = 2;
+
+        Main M2 = new Main();
+        M2.a = 4;
+        M2.b = 3;
+
+        System.out.println("Multiplication using object 1: " + M1.multiplication());
+        System.out.println("Multiplication using object 2: " + M2.multiplication());
+    }
+}
