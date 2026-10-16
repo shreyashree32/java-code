@@ -1,0 +1,16 @@
+class Main {
+    int a=10;
+    int b=20;
+    int largestnum(){
+        if(a>b){
+            return a;
+        }
+        else{
+            return b;
+        }
+    }
+    public static void main(String[] args) {
+        Main N=new Main();
+        System.out.println("the largest number is :"+N.largestnum());
+    }
+}
