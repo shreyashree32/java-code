@@ -1,0 +1,18 @@
+class Main {
+    int num = 5;
+
+    int factorial() {
+        int fact = 1;
+
+        for (int i = 1; i <= num; i++) {
+            fact = fact * i;
+        }
+
+        return fact;
+    }
+
+    public static void main(String[] args) {
+        Main N = new Main();
+        System.out.println("Factorial is: " + N.factorial());
+    }
+}
